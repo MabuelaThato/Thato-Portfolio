@@ -1,43 +1,63 @@
 import React from 'react'
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
 
 export const Skills = () => {
   return (
-    <div className='bg-[#212121] w-full text-center p-20'>
-        <h1 className='text-5xl text-white font-bold'>My Skills</h1>
-        <div className='grid grid-cols-4 m-16  px-20 gap-9'>
+    <div className=''>
 
-            <div className='bg-[#FAFAFA] circle'>
-            <img src="/html-5.png" alt="" className='w-[100px] mx-auto'/>
-            </div>
-            <div className='bg-[#FAFAFA] circle'>
-            <img src="/css-3.png" alt="" className='w-[100px] mx-auto'/>
-            </div>
-            <div className='bg-[#FAFAFA] circle'>
-            <img src="/js.png" alt="" className='w-[90px] mx-auto'/>
-            </div>
-            <div className='bg-[#FAFAFA] circle'>
-            <img src="/typescript.png" alt="" className='w-[90px] mx-auto'/>
-            </div>
-            <div className='bg-[#FAFAFA] circle'>
-            <img src="/react.png" alt="" className='w-[90px] mx-auto'/>
-            </div>
-            <div className='bg-[#FAFAFA] circle'>
-            <img src="/next.svg" alt="" className='w-[100px] mx-auto'/>
-            </div>
-            <div className='bg-[#FAFAFA] circle'>
-            <img src="/debugging.png" alt="" className='w-[90px] mx-auto'/>
-            </div>
-            <div className='bg-[#FAFAFA] circle'>
-            <img src="/git.png" alt="" className='w-[100px] mx-auto'/>
-            </div>
-            <div className='bg-[#FAFAFA] circle'>
-            <img src="ajax.png" alt="" className='w-[90px] mx-auto'/>
-            </div>
-            <div className='bg-[#FAFAFA] circle'>
-            <img src="responsive.png" alt="" className='w-[100px] mx-auto'/>
-            </div>
-
+    <Card>
+  <CardHeader>
+    <CardTitle>Front-end development</CardTitle>
+    <CardDescription>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+        <li>React</li>
+        <li>Nextjs</li>
+        <li>API intergration</li>
+        <li>Front-end frameworks</li>
+        <li>Responsive design</li>
+        <li>Git</li>
+      </ul>
+      <div className='grid grid-cols-2'>
+        <div>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>API intergration</li>
+          </ul>
         </div>
-    </div>
+        <div>
+          <ul>
+            <li>React</li>
+            <li>Nextjs</li>
+            <li>Front-end frameworks</li>
+            <li>Responsive design</li>
+            <li>Git</li>
+          </ul>
+        </div>
+      </div>
+    </CardDescription>
+  </CardHeader>
+  <CardContent>
+    <p>Card Content</p>
+  </CardContent>
+  <CardFooter>
+    <p>Card Footer</p>
+  </CardFooter>
+</Card>
+
+</div>
   )
 }
