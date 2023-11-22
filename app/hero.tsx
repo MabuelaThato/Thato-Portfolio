@@ -6,13 +6,13 @@ import { Button } from '@/components/ui/button';
 export const Hero = () => {
   return (
    <div className="
-   items-center min-h-screen bg-cover  flex flex-col w-full"
+   items-center min-h-screen bg-cover flex flex-col w-full"
   style={{
     backgroundImage:
       'url("/image.jpg")',
   }}
   >
-    <div className='w-full pt-28 px-32 text-center'>
+    <div className='w-full pt-40 px-32 text-center'>
         <img src="/profile.jpg" alt="" className='profile p-1 bg-white drop-shadow-2xl'/>
         <h1 className='text-6xl mt-8 mb-6 font-medium'>
             Thato Mabuela
@@ -25,7 +25,7 @@ export const Hero = () => {
             <FaLinkedin size={32}/>
             </a>
         </div>
-        <div className='flex flex-row justify-center space-x-4'>
+        <div className='flex flex-row justify-center space-x-6'>
             <Button  className='text-lg' variant="outline">
                 <a href="/Thato-Mabuela-CV.pdf" download="Thato-Mabuela-CV.pdf">
                     Get CV
