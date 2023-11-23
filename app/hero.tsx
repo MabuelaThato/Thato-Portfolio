@@ -14,15 +14,15 @@ export const Hero = () => {
   >
     <div className='w-full pt-40 px-32 text-center'>
         <img src="/profile.jpg" alt="" className='profile p-1 bg-white drop-shadow-2xl'/>
-        <h1 className='text-6xl mt-8 mb-6 font-medium'>
+        <h1 className='text-6xl mt-12 mb-6 font-medium'>
             Thato Mabuela
         </h1>
         <div className='flex flex-row justify-center mb-6 space-x-4'>
-            <a href="https://github.com/MabuelaThato" className=''>
+            <a href="https://github.com/MabuelaThato" target="_blank" className=''>
             <FaGithub size={32}/>
             </a>
-            <a href="https://www.linkedin.com/in/thato-mabuela-68781017a/">
-            <FaLinkedin size={32}/>
+            <a href="https://www.linkedin.com/in/thato-mabuela-68781017a/" target="_blank">
+            <FaLinkedin size={32} />
             </a>
         </div>
         <div className='flex flex-row justify-center space-x-6'>

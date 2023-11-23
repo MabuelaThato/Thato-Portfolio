@@ -1,4 +1,5 @@
 import About from "./about";
+import Contact from "./contact";
 import Experience from "./experience";
 import { Hero } from "./hero";
 import Projects from "./projects";
@@ -13,6 +14,7 @@ export default function Home() {
       <Experience />
       <Skills />
       <Projects />
+      <Contact />
     </main>
   )
 }
