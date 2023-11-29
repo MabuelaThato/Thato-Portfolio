@@ -2,7 +2,7 @@ import React from 'react'
 
 const Experience = () => {
   return (
-    <div className='px-24 py-16' id='experience'>
+    <div className='px-8 md:px-24 md:py-16' id='experience'>
         <h1 className='text-4xl font-medium mb-6'>Experience</h1>
         <p className='text-xl  font-light'>
             I am self-taught and driven by a passion for crafting engaging digital experiences.

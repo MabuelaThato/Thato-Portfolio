@@ -12,9 +12,9 @@ export const Hero = () => {
       'url("/image.jpg")',
   }}
   >
-    <div className='w-full pt-40 px-32 text-center'>
-        <img src="/profile.jpg" alt="" className='profile p-1 bg-white drop-shadow-2xl'/>
-        <h1 className='text-6xl mt-12 mb-6 font-medium'>
+    <div className='w-full pt-72 md:pt-40 px-10 md:px-32 text-center'>
+        <img src="/profile.jpg" alt="" className='profile p-1 bg-white drop-shadow-2xl w-[200px] md:w-[270px]'/>
+        <h1 className='text-4xl md:text-6xl mt-12 mb-6 font-medium'>
             Thato Mabuela
         </h1>
         <div className='flex flex-row justify-center mb-6 space-x-4'>
