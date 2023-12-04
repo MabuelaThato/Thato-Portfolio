@@ -6,13 +6,9 @@ import { Button } from '@/components/ui/button';
 export const Hero = () => {
   return (
    <div className="
-   items-center min-h-screen bg-cover flex flex-col w-full my-0"
-  style={{
-    backgroundImage:
-      'url("/bg.jpg")',
-  }}
+   items-center min-h-screen bg-cover flex flex-col w-full my-0 hero"
   >
-    <div className='w-full pt-52 md:pt-48 lg:pt-44'>
+    <div className='w-full my-auto'>
         <img src="/profile.jpg" alt="" className='profile  p-1 bg-white drop-shadow-2xl w-[200px] md:w-[270px]'/>
         <h1 className='text-4xl md:text-6xl mt-12 text-center mb-6 font-medium'>
             Thato Mabuela

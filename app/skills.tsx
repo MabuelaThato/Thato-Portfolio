@@ -3,12 +3,12 @@ import React from 'react'
 import { BsPatchCheckFill } from "react-icons/bs";
 
 export const Skills = () => {
-  const style = { color: '#D47ABA'}
+  const style = { color: '#df636e', fontSize: "13px"}
 
   return (
     <div className='text-left px-6 md:px-16' id='skills'>
         <h1 className='text-2xl md:text-4xl font-semibold mb-6 md:mb-10 lg:mb-12 '>Skills</h1>
-        <div className='grid grid-cols-2 font-light md:space-x-8 mb-16'>
+        <div className='grid grid-cols-2 font-light space-x-2 md:space-x-8 mb-16'>
           <div className='flex flex-col space-y-4 md:space-y-8'>
 
             <div>

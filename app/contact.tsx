@@ -56,7 +56,7 @@ const Contact = () => {
         }
       }
   return (
-    <div className='m-6 md:my-12 lg:mx-16' id='contact'>
+    <div className='m-6 md:my-12 lg:mx-12' id='contact'>
         
         <div className='drop-shadow-xl bg-white p-8 lg:p-24 md:py-16 rounded-lg'>
             <h1 className='text-2xl md:text-4xl font-semibold mb-4 md:mb-12'>Get in touch</h1>

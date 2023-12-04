@@ -7,17 +7,17 @@ import { TbBrandNextjs } from "react-icons/tb";
 
 const Projects = () => {
   return (
-    <div className='px-6 md:px-12 lg:px-24 py-8 md:py-16' id='projects'>
+    <div className='px-6 md:px-12 lg:px-12 py-8 md:py-16' id='projects'>
         <h1 className='text-2xl md:text-4xl font-semibold mb-6'>Projects</h1>
 
 
-        <div className='lg:grid lg:grid-cols-2 mt-6 md:mt-12'>
+        <div className='lg:grid lg:grid-cols-2 lg:space-x-10 mt-6 md:mt-12'>
             <a href="https://github.com/MabuelaThato/pailane" target="_blank">
-                <img src="/Pailane-website.png" alt=""  className='p-2 rounded-lg bg-white drop-shadow-2xl w-[500px]'/>
+                <img src="/Pailane-website.png" alt=""  className='p-2 rounded-lg bg-white drop-shadow-2xl w-[500px] md:w-full'/>
             </a>
             
             <div>
-                <h1 className='font-semibold text-xl md:text-2xl mb-6 lg:mb-10 mt-10'>Financial advisor website</h1>
+                <h1 className='font-semibold text-xl md:text-2xl mb-6 lg:mb-10 mt-14 lg:mt-0'>Financial advisor website</h1>
                 <p className='font-light mb-6'>
                     This project is a website I created for a financial advisor to let potential clients
                     know of his services and get in touch with him.
