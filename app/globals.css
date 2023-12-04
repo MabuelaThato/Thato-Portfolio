@@ -75,16 +75,9 @@
   }
 }
 
-.hero-container {
-   
-    background: url('/image.jpg');    
-    background-repeat: no-repeat; 
-    background-size: cover;
-}
-
   
-body {
-  margin:0;
+.bg-cover {
+  height: 20vh;
 }
 
 .profile{

@@ -56,13 +56,13 @@ const Contact = () => {
         }
       }
   return (
-    <div className='my-12' id='contact'>
+    <div className='m-6 md:my-12 lg:mx-16' id='contact'>
         
-        <div className='drop-shadow-xl bg-white p-24 py-16 rounded-lg'>
-            <h1 className='text-4xl font-medium mb-12'>Get in touch</h1>
-        <div className='grid grid-cols-2 divide-x py-6'>
-            <img src="contact.jpg" alt="" className='w-[500px] px-8'/>
-            <div className='px-8'>
+        <div className='drop-shadow-xl bg-white p-8 lg:p-24 md:py-16 rounded-lg'>
+            <h1 className='text-2xl md:text-4xl font-semibold mb-4 md:mb-12'>Get in touch</h1>
+        <div className='md:grid md:grid-cols-2 md:divide-x md:py-6'>
+            <img src="contact.jpg" alt="" className='w-[300px] md:w-[500px] md:px-8'/>
+            <div className='md:px-4 lg:px-8 mt-6 md:mt-0'>
                 <Form {...form}>
                     <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
                         <FormField
