@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Lato } from 'next/font/google'
 import './globals.css'
 import { Nav } from './nav'
+import { Toaster } from "@/components/ui/toaster"
 
 const lato = Lato({
   weight: '400',
@@ -22,10 +23,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={lato.className}>
       <Nav />
-        <div>
+        <main>
         {children}
-        </div>
-        
+        </main>
+        <Toaster />
       </body>
     </html>
   )

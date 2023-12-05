@@ -16,6 +16,7 @@ import {
   import { Input } from "@/components/ui/input"
   import axios from 'axios'
 import { useRouter } from 'next/navigation'
+import { useToast } from "@/components/ui/use-toast"
 
 const formSchema = z.object({
     fullName: z.string().min(2).max(50),
@@ -24,6 +25,8 @@ const formSchema = z.object({
   })
 
 const Contact = () => {
+
+    const { toast } = useToast()
 
     const form = useForm<z.infer<typeof formSchema>>({
         resolver: zodResolver(formSchema),
@@ -46,14 +49,27 @@ const Contact = () => {
                 message: values.message
             }
         };
-  
+
+        const data2 = {
+            service_id: 'service_vi8loqv',
+            template_id: 'template_6o4uztm',
+            user_id: 'RSDwXqQkjUZrYQIvd',
+            template_params: {
+                from_name: values.fullName,
+                from_email: values.email,
+            }
+        };
+
         try {
-          const res = await axios.post('https://api.emailjs.com/api/v1.0/email/send',data)
-          console.log(res.data)
-          router.push("/")
-        } catch (error) {
-          console.error(error)
-        }
+            const res = await axios.post('https://api.emailjs.com/api/v1.0/email/send',data)
+            console.log(res.data)
+            const res2 = await axios.post('https://api.emailjs.com/api/v1.0/email/send',data2)
+            console.log(res2.data)
+            router.push("/")
+          } catch (error) {
+            console.error(error)
+          }
+  
       }
   return (
     <div className='m-6 md:my-12 lg:mx-12' id='contact'>
@@ -104,7 +120,13 @@ const Contact = () => {
                             </FormItem>
                         )}
                         />
-                        <Button type="submit" className='w-full'>Submit</Button>
+                        <Button type="submit" className='w-full'
+                         onClick={() => {
+                            toast({
+                                description: "Your message has been sent.",
+                            })
+                          }}
+                        >Submit</Button>
                     </form>
                 </Form>
             </div>
