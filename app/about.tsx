@@ -12,10 +12,6 @@ const About = () => {
         <br/>
         <br/>
         I specialise in creating user interfaces that align with client specifications and needs.
-        <br/>
-        <br/>
-        I'm enthusiastic about enhancing customer experiences through thoughtful design, 
-        and I understand the importance of a well-crafted digital presence in attracting venture capital.
         </p>
         <div className='px-12'>
         <Separator />
