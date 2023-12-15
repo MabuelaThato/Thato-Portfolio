@@ -12,7 +12,7 @@ const Projects = () => {
 
 
         <div className='lg:grid lg:grid-cols-2 lg:space-x-10 mt-6 md:mt-12'>
-            <a href="https://github.com/MabuelaThato/pailane" target="_blank">
+            <a href="https://www.pailane.co.za/" target="_blank">
                 <img src="/Pailane-website.png" alt=""  className='p-2 rounded-lg bg-white drop-shadow-2xl w-[500px] md:w-full'/>
             </a>
             
@@ -38,7 +38,7 @@ const Projects = () => {
                             <a href="https://github.com/MabuelaThato/pailane" target="_blank" className='flex space-x-2'><span className='font-medium'>Code</span> <span><FaGithub size={24}/></span></a>
                         </div>
                         <div>
-                            <a href="https://pailane.vercel.app/" target="_blank" className='flex space-x-2'><span className='font-medium'>Live Demo</span> <span><PiArrowSquareOut size={24}/></span></a>
+                            <a href="https://www.pailane.co.za/" target="_blank" className='flex space-x-2'><span className='font-medium'>Live Demo</span> <span><PiArrowSquareOut size={24}/></span></a>
                         </div>
                     </div>
             </div>
