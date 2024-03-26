@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 export const Hero = () => {
   return (
    <div className="items-center w-full mt-24 px-16 ">
-    <div className='w-full mx-auto grid grid-rows-2 md:grid-rows text-center lg:text-left items-center justify-center'>
+    <div className='w-full mx-auto grid grid-rows-1 lg:grid-cols-2 text-center lg:text-left items-center justify-center'>
         <div className='flex flex-col space-y-12'>
         <h1 className='text-4xl md:text-7xl font-black'>
             Thato Mabuela<span className='text-[#A065ED] text-8xl'>.</span>
@@ -26,7 +26,7 @@ export const Hero = () => {
             </Button>
         </div>
         </div>
-        <img src="/profile.jpg" alt="" className='hidden lg:visibile profile border border-[#A065ED/30] p-2 bg-white drop-shadow-[0_20px_13px_rgba(160,101,237,0.25)] w-[200px] md:w-[270px]'/>
+        <img src="/profile.jpg" alt="" className='invisible lg:visible profile border border-[#A065ED/30] p-2 bg-white drop-shadow-[0_20px_13px_rgba(160,101,237,0.25)] w-[200px] md:w-[270px]'/>
     </div>
        
    
