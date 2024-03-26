@@ -3,7 +3,7 @@ import { FaRegCalendarAlt } from "react-icons/fa";
 
 const Experience = () => {
   return (
-    <div className='px-6 lg:px-16 pb-6 md:pb-32' id='experience'>
+    <div className='px-6 lg:px-16 pb-6 md:pb-32 lg:mt-32' id='experience'>
         <h1 className='text-4xl md:text-7xl font-black mb-16'>
             Experience<span className='text-[#A065ED] text-8xl'>.</span>
         </h1>
