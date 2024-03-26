@@ -21,7 +21,7 @@ export const Hero = () => {
             </Button>
             <Button  className='text-md bg-[#A065ED] text-white hover:border hover:bg-white hover:border-[#A065ED] hover:text-[#A065ED]'>
                 <Link href="/#contact">
-                    Hire me
+                    Get in touch
                 </Link>
             </Button>
         </div>
