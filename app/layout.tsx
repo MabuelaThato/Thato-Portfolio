@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
-import { Lato } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 import './globals.css'
 import { Nav } from './nav'
 import { Toaster } from "@/components/ui/toaster"
 
-const lato = Lato({
+const roboto = Roboto({
   weight: '400',
   subsets: ['latin'],
 })
@@ -21,12 +21,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={lato.className}>
+      <body className={roboto.className}>
+      <main className='bg-[#E5E5E9] w-full'>
       <Nav />
-        <main>
         {children}
-        </main>
         <Toaster />
+        </main>
       </body>
     </html>
   )
