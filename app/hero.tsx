@@ -14,12 +14,12 @@ export const Hero = () => {
         I'm a <span className='text-[#A065ED]'>frontend developer</span> based in Johannesburg, South Africa. I am passionate about crafting user-friendly interfaces that bring designs to life.
         </p>
         <div className='flex flex-row space-x-6 mx-auto lg:mx-0'>
-            <Button  className='text-md hover:border hover:border-[#262D3F] hover:text-[#262D3F] hover:bg-white' variant="default">
+            <Button  className='text-md border-2 bg-[#312244] font-medium border-[#312244] hover:text-[#312244] hover:bg-white' variant="default">
                 <a href="/Thato-Mabuela-CV.pdf" download="Thato-Mabuela-CV.pdf">
                     Get CV
                 </a>
             </Button>
-            <Button  className='text-md bg-[#A065ED] text-white hover:border hover:bg-white hover:border-[#A065ED] hover:text-[#A065ED]'>
+            <Button  className='text-md bg-[#A065ED] text-white font-medium border-2 hover:bg-white border-[#A065ED] hover:text-[#A065ED]'>
                 <Link href="/#contact">
                     Get in touch
                 </Link>

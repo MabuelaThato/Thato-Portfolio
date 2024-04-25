@@ -6,7 +6,7 @@ import { FiMail } from "react-icons/fi";
 const Contact = () => {
 
   return (
-    <div className='p-6 md:py-8 lg:px-12 bg-white drop-shadow-2xl' id='contact'>
+    <div className='p-6 md:py-6 lg:px-12 bg-[#312244] text-white drop-shadow-2xl' id='contact'>
         <div className='flex flex-col lg:flex-row items-center lg:space-x-6 space-y-4 text-sm lg:text-base justify-around md:text-xl'>
             <p className='flex space-x-2 items-center'>
                 <div><FaPhoneAlt /></div>
