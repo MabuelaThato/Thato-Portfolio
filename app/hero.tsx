@@ -26,7 +26,7 @@ export const Hero = () => {
             </Button>
         </div>
         </div>
-        <img src="/profile.jpg" alt="" className='invisible lg:visible profile border border-[#A065ED/30] p-2 bg-white drop-shadow-[0_20px_13px_rgba(160,101,237,0.25)] w-[200px] md:w-[270px]'/>
+        <img src="/profile.jpg" alt="" className='invisible lg:visible profile border border-[#A065ED/30] p-2 bg-white drop-shadow-[0_20px_13px_rgba(160,101,237,0.25)] w-[200px] md:w-[270px] lg:w-[320px]'/>
     </div>
        
    
