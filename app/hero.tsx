@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 
 export const Hero = () => {
   return (
-   <div className="items-center w-full mt-24 px-16 ">
+   <div className="items-center w-full mt-24 px-6 lg:px-16 ">
     <div className='w-full mx-auto grid grid-rows-1 lg:grid-cols-2 text-center lg:text-left items-center justify-center'>
         <div className='flex flex-col space-y-12'>
         <h1 className='text-4xl md:text-7xl font-black'>
