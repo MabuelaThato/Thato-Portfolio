@@ -67,7 +67,7 @@ const Projects = () => {
                                         <a href={project.codeLink} target="_blank" className='flex space-x-2 items-center'><span className='font-medium'>Code</span> <span><FaGithub size={24}/></span></a>
                                     </div>
                                     <div>
-                                        <a href={project.codeLink} target="_blank" className='flex space-x-2 items-center'><span className='font-medium'>Live Demo</span> <span><PiArrowSquareOut size={24}/></span></a>
+                                        <a href={project.demoLink} target="_blank" className='flex space-x-2 items-center'><span className='font-medium'>Live Demo</span> <span><PiArrowSquareOut size={24}/></span></a>
                                     </div>
                                 </span>
                             </div>
